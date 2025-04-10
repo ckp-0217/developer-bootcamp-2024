@@ -2,10 +2,10 @@
 
 ### Disclaimer: This code is not audited and should not be used in production. There are several edge cases that have not been addressed and error handling that has not been implemented. This is for education purposes only.
 
-## Program Terminology
+## Protocol Terminology
 
 1. Health Factor -
-2. Max Loan to Value Ratio (LTV) - Max percentage of collateral that can be borrowed
+2. Max Loan to Value Ratio (LTV) -
 3. Collateral -
 4. Liquidation Threshold -
 5. Shares -
@@ -19,9 +19,9 @@
    When a user deposits assets, they receive a proportion of total shares relative to their deposit.
    The value of each share increases over time as interest accrues to the pool, but the number of shares owned by each depositor remains constant. This way, the system only needs to update the total balance and the share value, not each individual's balance.
 
-Interest Rate Model for implementing a dynamic APY:
+Interest Rate Model
 
-## Formulas
+## Calculations Needed
 
 **Variable Interest Rate Model:**
 
@@ -42,8 +42,6 @@ where,
 - $b_b = Borrow Base Rate$
 - $d_m = Deposit Max Rate$
 - $b_m = Borrow Max Rate$
-
-Note: This is to be used if you are attempting the challenge to implement a dynamic apy into the program
 
 **Share Value**
 
