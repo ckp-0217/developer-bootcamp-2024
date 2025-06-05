@@ -44,3 +44,35 @@ jspm_packages
 .node_repl_history
 .next/
 .anchor/
+
+# Solana & Anchor 特定文件
+.keypair
+*.keypair
+**/target/deploy/*.json
+**/target/deploy/*.keypair
+**/target/idl/
+**/target/types/
+**/target/sbf-*/
+**/target/bpfel-unknown-unknown/
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE 和编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 构建输出
+dist/
+out/
+build/
+
+# 其他
+tmp/
+.vercel

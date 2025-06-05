@@ -1,0 +1,66 @@
+[package]
+name = "rust-learn-examples"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[[bin]]
+name = "ex01_variables_and_mutability"
+path = "must_master/01_variables_and_mutability.rs"
+
+[[bin]]
+name = "ex02_data_types"
+path = "must_master/02_data_types.rs"
+
+[[bin]]
+name = "ex03_functions_and_scope"
+path = "must_master/03_functions_and_scope.rs"
+
+[[bin]]
+name = "ex04_flow_control"
+path = "must_master/04_flow_control.rs"
+
+[[bin]]
+name = "ex05_ownership_and_borrowing"
+path = "must_master/05_ownership_and_borrowing.rs"
+
+[[bin]]
+name = "ex06_references_and_slices"
+path = "must_master/06_references_and_slices.rs"
+
+[[bin]]
+name = "ex07_structs_and_methods"
+path = "must_master/07_structs_and_methods.rs"
+
+[[bin]]
+name = "ex08_enums_and_pattern_matching"
+path = "must_master/08_enums_and_pattern_matching.rs"
+
+[[bin]]
+name = "ex11_error_handling"
+path = "must_master/11_error_handling.rs"
+
+[[bin]]
+name = "ex14_lifetimes"
+path = "must_master/14_lifetimes.rs"
+
+[[bin]]
+name = "ex15_std_lib_and_macros"
+path = "must_master/15_std_lib_and_macros.rs"
+
+[[bin]]
+name = "ex09_collections"
+path = "occasionally_used/09_collections.rs"
+
+[[bin]]
+name = "ex10_modules_and_packages"
+path = "occasionally_used/10_modules_and_packages.rs"
+
+[[bin]]
+name = "ex12_generics"
+path = "occasionally_used/12_generics.rs"
+
+[[bin]]
+name = "ex13_traits_and_trait_bounds"
+path = "occasionally_used/13_traits_and_trait_bounds.rs"
